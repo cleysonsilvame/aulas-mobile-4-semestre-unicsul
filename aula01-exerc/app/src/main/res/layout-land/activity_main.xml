@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8CBDA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textCenter2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#373737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="158dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/imageDescription2"
+        android:outlineSpotShadowColor="#222222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personName"
+        app:srcCompat="@drawable/ada_lovelace" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="419dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:contentDescription="@string/historyLabel2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/personName">
+
+        <TextView
+            android:id="@+id/personDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personDescription2"
+            android:textColor="#373737" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
