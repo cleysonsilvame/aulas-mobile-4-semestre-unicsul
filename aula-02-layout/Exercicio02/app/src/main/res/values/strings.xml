@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exercício 02</string>
+    <string name="from">De:</string>
+    <string name="to">Para:</string>
+    <string name="subject">Assunto:</string>
+    <string name="message">Mensagem</string>
+</resources>
