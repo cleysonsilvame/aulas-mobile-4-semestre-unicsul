@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exercício 03</string>
+    <string name="title">Lamborghini</string>
+    <string name="type">Aventor</string>
+    <string name="price">$ 434.000</string>
+    <string name="imageViewDescription">lamborghini</string>
+</resources>
