@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exercicio 01</string>
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="dividerSymbol">/</string>
+    <string name="multiplierSymbol">*</string>
+    <string name="minusSymbol">-</string>
+    <string name="resultado">Resultado: 20</string>
+    <string name="sumSymbol">+</string>
+    <string name="input1">10</string>
+    <string name="input2">10</string>
+</resources>
