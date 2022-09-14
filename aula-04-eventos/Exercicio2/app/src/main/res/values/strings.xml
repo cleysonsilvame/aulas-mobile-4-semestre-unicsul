@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exercicio 2</string>
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="divider">Dividir</string>
+    <string name="multiplier">Multiplicar</string>
+    <string name="minus">Subtrair</string>
+    <string name="resultado">Resultado: 50</string>
+    <string name="sum">Somar</string>
+    <string name="input1">20</string>
+    <string name="input2">30</string>
+    <string name="options">Opções</string>
+    <string name="btnRun">Executar</string>
+    <string name="resultText">Resultado: </string>
+</resources>
