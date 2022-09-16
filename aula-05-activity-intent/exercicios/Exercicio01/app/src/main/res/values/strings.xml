@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Exercicio01</string>
+    <string name="labelAltura">Altura:</string>
+    <string name="resultadoIMC">"Resultado: "</string>
+    <string name="calcularIMCText">Calcular IMC</string>
+    <string name="abrirCalculadoraText">Abrir Calculadora</string>
+    <string name="labelPeso">Peso:</string>
+    <string name="errorMessage">Não foi possível calcular.</string>
+    <string name="alturaHint">1.80</string>
+    <string name="pesoHint">65</string>
+
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="dividerSymbol">/</string>
+    <string name="multiplierSymbol">*</string>
+    <string name="minusSymbol">-</string>
+    <string name="resultadoCalculadora">Resultado: 20</string>
+    <string name="sumSymbol">+</string>
+    <string name="input1">10</string>
+    <string name="input2">10</string>
+    <string name="buttonVoltar">Voltar</string>
+</resources>

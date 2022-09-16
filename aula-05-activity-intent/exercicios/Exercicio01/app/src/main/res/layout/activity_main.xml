@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:padding="10dp"
+    android:stretchColumns="1"
+    tools:context="com.example.exercicio01.MainActivity">
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textViewAltura"
+            android:layout_weight="1"
+            android:text="@string/labelAltura" />
+
+        <TextView
+            android:id="@+id/textViewPeso"
+            android:layout_weight="1"
+            android:text="@string/labelPeso" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/editTextAltura"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/alturaHint"
+            android:importantForAutofill="no"
+            android:inputType="number|numberDecimal"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/editTextPeso"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pesoHint"
+            android:inputType="number|numberDecimal"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:gravity="center_vertical"
+        android:minHeight="40dp"
+        android:text="@string/resultadoIMC" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonCalcularIMC"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_weight="1"
+            android:text="@string/calcularIMCText" />
+
+        <Button
+            android:id="@+id/buttonAbrirCalculadora"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_weight="1"
+            android:text="@string/abrirCalculadoraText"
+            tools:ignore="TextContrastCheck" />
+    </TableRow>
+
+
+</TableLayout>
